@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: '#002A3F',
+        white: '#FFFFFF',
+        accent: '#ED4441',
+      },
       fontFamily: {
         sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
       },
