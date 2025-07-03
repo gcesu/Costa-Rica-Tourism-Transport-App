@@ -11,7 +11,7 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <motion.section 
-        className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20"
+        className="bg-primary text-white py-20"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
@@ -41,7 +41,7 @@ const Home = () => {
           >
             <Link
               to="/booking"
-              className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center space-x-2"
+              className="bg-accent text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-500 transition-colors inline-flex items-center space-x-2"
             >
               <span>Reservar Ahora</span>
               <SafeIcon icon={FiArrowRight} />
@@ -70,8 +70,8 @@ const Home = () => {
               transition={{ duration: 0.8, delay: 0.1 }}
               viewport={{ once: true }}
             >
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <SafeIcon icon={FiMapPin} className="text-2xl text-blue-600" />
+              <div className="bg-gray-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <SafeIcon icon={FiMapPin} className="text-2xl text-primary" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Ubicaciones Precisas</h3>
               <p className="text-gray-600">
@@ -87,8 +87,8 @@ const Home = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <SafeIcon icon={FiClock} className="text-2xl text-blue-600" />
+              <div className="bg-gray-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <SafeIcon icon={FiClock} className="text-2xl text-primary" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Puntualidad Garantizada</h3>
               <p className="text-gray-600">
@@ -104,8 +104,8 @@ const Home = () => {
               transition={{ duration: 0.8, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <SafeIcon icon={FiShield} className="text-2xl text-blue-600" />
+              <div className="bg-gray-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <SafeIcon icon={FiShield} className="text-2xl text-primary" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Seguridad Total</h3>
               <p className="text-gray-600">
@@ -147,7 +147,7 @@ const Home = () => {
           >
             <Link
               to="/booking"
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors inline-flex items-center space-x-2"
+              className="bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-900 transition-colors inline-flex items-center space-x-2"
             >
               <span>Hacer Reserva</span>
               <SafeIcon icon={FiArrowRight} />
